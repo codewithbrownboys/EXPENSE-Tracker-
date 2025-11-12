@@ -1,0 +1,86 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1707157281599-d155d1da5b4c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+   margin-top: 120px;
+   background-image:url(https://images.unsplash.com/photo-1729488368227-1f1eee39ff20?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+   background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+.expense-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.expense-table th, .expense-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.expense-table th {
+    background-color: #f8f8f8;
+}
+
+.total-amount {
+    text-align: right;
+    font-size: 18px;
+}
+
+.filter {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.filter label {
+    margin-right: 10px;
+}
+
+.filter select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
